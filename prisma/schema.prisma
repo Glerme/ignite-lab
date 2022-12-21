@@ -15,6 +15,7 @@ model Notification {
   content     String
   category    String
   recipientId String
+  canceledAt  DateTime?
   readAt      DateTime?
   createdAt   DateTime  @default(now())
 
